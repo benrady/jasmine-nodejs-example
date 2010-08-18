@@ -1,0 +1,27 @@
+Jasmine Node.js example application
+
+An example of how to test client side (browser) javascript using node.js and the Jasmine testing framework.
+
+== Installation ==
+
+# Install node.js
+wget http://nodejs.org/dist/node-v0.1.103.tar.gz
+tar -xf node-v0.1.103.tar.gz
+cd node-v0.1.103
+./configure
+make
+sudo make install
+
+== Starting a Webserver ==
+
+$ ./script/server
+
+== Running Tests == 
+
+$ gem install watchr
+$ watchr nodejs.watchr
+
+== Possible Improvements ==
+
+* Port ext.js to node.js
+* Upgrade to latest Jasmine (1.0?)
